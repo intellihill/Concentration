@@ -13,6 +13,8 @@
 		028146052B4622370028260D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 028146032B4622370028260D /* Main.storyboard */; };
 		028146072B4622380028260D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 028146062B4622380028260D /* Assets.xcassets */; };
 		0281460A2B4622380028260D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 028146082B4622380028260D /* LaunchScreen.storyboard */; };
+		02D8BBB52B491EC6001E1DCE /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D8BBB42B491EC6001E1DCE /* Concentration.swift */; };
+		02D8BBB72B492355001E1DCE /* Crad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D8BBB62B492355001E1DCE /* Crad.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		028146062B4622380028260D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		028146092B4622380028260D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0281460B2B4622380028260D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02D8BBB42B491EC6001E1DCE /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		02D8BBB62B492355001E1DCE /* Crad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crad.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				024B93BA2B46D753000E5E1D /* Supporting Files */,
 				028146012B4622370028260D /* ViewController.swift */,
 				028146032B4622370028260D /* Main.storyboard */,
+				02D8BBB42B491EC6001E1DCE /* Concentration.swift */,
+				02D8BBB62B492355001E1DCE /* Crad.swift */,
 				028146062B4622380028260D /* Assets.xcassets */,
 				0281460B2B4622380028260D /* Info.plist */,
 			);
@@ -146,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02D8BBB72B492355001E1DCE /* Crad.swift in Sources */,
 				028146022B4622370028260D /* ViewController.swift in Sources */,
+				02D8BBB52B491EC6001E1DCE /* Concentration.swift in Sources */,
 				028145FE2B4622370028260D /* AppDelegate.swift in Sources */,
 				028146002B4622370028260D /* SceneDelegate.swift in Sources */,
 			);
